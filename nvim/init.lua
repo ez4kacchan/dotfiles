@@ -16,4 +16,4 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup(plugins, opts)
 require("config.workflows")
-require'lspconfig'.astro.setup{}
+
