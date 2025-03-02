@@ -1,13 +1,21 @@
-
 [font]
-size = 9.0
+size = 10.0
 
 [font.normal]
-family = "JetBrains Mono Medium"
+family = "JetBrains Mono"
+style = "Regular"
 
-[terminal.shell]
-args = ["-l", "-c", "tmux"]
-program = "/bin/zsh"
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
 
 [window]
 opacity = 1
@@ -16,7 +24,14 @@ opacity = 1
 columns = 140
 lines = 38
 
-[general]
-import = ["/home/ez4kacchan/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+#import theme (correct placement)
+# import = ["/home/ez4kacchan/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
 
-[terminal]
+[debug]
+log_level = "Off"
+
+# Correct way to set a shell
+[shell]
+program = "/usr/bin/zsh"
+# args = ["-l", "-c", "tmux"]
+
