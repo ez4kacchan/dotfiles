@@ -1,15 +1,11 @@
 return {
   {
-    'sainnhe/everforest',
-    config = function()
-      vim.g.everforest_background = "medium" -- Set everforest theme to medium
-      vim.g.everforest_transparent_background = 2
-    end,
+    "blazkowolf/gruber-darker.nvim",
   },
   {
     "lazyvim/lazyvim",
     opts = {
-      colorscheme = "everforest",
-    }
+      colorscheme = "gruber-darker",
+    },
   },
 }

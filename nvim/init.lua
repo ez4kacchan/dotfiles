@@ -17,3 +17,4 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup(plugins, opts)
 require("config.workflows")
 
+vim.opt.clipboard:append("unnamedplus")
